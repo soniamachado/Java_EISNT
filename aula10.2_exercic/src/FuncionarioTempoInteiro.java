@@ -1,5 +1,5 @@
 public class FuncionarioTempoInteiro extends Funcionario {
-  public FuncionarioTempoInteiro(Sring nome, double salarioBase) {
+  public FuncionarioTempoInteiro(String nome, double salarioBase) {
     super(nome, salarioBase);
   }
 

@@ -1,8 +1,8 @@
 public class Funcionario {
   String nome;
-  int salarioBase;
+  double salarioBase;
 
-  public void Funcionario(String nome, double salarioBase) {
+  public Funcionario(String nome, double salarioBase) {
     this.nome = nome;
     this.salarioBase = salarioBase;
   }
