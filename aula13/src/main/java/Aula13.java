@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 
 public class Aula13 {
   public static void main(String[] args) throws Exception {
-    Connection conn = DriverManager.getConnection("jdbc:sqlite:aula13/test.db");
+    Connection conn = DriverManager.getConnection("jdbc:sqlite:test.db");
     Statement stmt = conn.createStatement();
 
     stmt.executeUpdate("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER)");

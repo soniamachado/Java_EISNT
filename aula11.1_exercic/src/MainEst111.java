@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MainSalarioBruto {
+public class MainEst111 {
   public static void main(String[] args) throws Exception {
     ArrayList<Empregado> empregados = LeitorCSV.lerFicheiro("pessoas.csv");
 
