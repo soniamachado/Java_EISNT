@@ -9,7 +9,7 @@ public class Aula13 {
     Statement stmt = conn.createStatement();
 
     stmt.executeUpdate("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER)");
-    stmt.executeUpdate("DELETE FROM users");
+    // stmt.executeUpdate("DELETE FROM users");
     stmt.executeUpdate("INSERT INTO users (name, age) VALUES ('Alice', 30)");
     stmt.executeUpdate("INSERT INTO users (name, age) VALUES ('Bob', 25)");
 
